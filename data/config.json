@@ -1,0 +1,8 @@
+{
+  "ai": {
+    "model": "gemini-3.5-flash",
+    "temperature": 0.9,
+    "max_tokens": 1024,
+    "max_history": 20
+  }
+}

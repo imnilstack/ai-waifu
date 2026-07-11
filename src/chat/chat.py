@@ -1,4 +1,4 @@
-from ai.gemini import chat
+from src.ai.gemini import generate_response
 
 
 def start_chat_loop():
@@ -14,6 +14,6 @@ def start_chat_loop():
         if msg == "exit":
             break
 
-        reply = chat(msg)
+        reply = generate_response(msg)
 
         print(reply)

@@ -1,4 +1,4 @@
-from chat.chat import start_chat_loop
+from src.chat.chat import start_chat_loop
 
 try:
     start_chat_loop()
