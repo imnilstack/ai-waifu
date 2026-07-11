@@ -5,8 +5,14 @@
     "max_tokens": 1024,
     "max_history": 20
   },
+
   "personality": {
     "enabled": true,
     "path": "assets/personalities/Astra.txt"
+  },
+
+  "speech": {
+    "stt_enabled": false,
+    "tts_enabled": true
   }
 }
